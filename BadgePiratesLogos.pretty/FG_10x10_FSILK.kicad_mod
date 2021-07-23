@@ -1,9 +1,9 @@
-(module FG_10x10 (layer F.Cu) (tedit 60AAA25D)
+(module FG_10x10_FSILK (layer F.Cu) (tedit 60FA31D4)
   (fp_text reference G*** (at 1.2446 -1.9304) (layer F.SilkS) hide
     (effects (font (size 0.1 0.1) (thickness 0.025)))
   )
-  (fp_text value LOGO (at 1.27 -1.7272) (layer F.SilkS) hide
-    (effects (font (size 0.1 0.1) (thickness 0.025)))
+  (fp_text value fg (at 0 -6.35) (layer F.SilkS)
+    (effects (font (size 1.54 1.54) (thickness 0.3)))
   )
   (fp_poly (pts (xy -1.040983 -1.244053) (xy -1.03505 -1.2192) (xy -1.042031 -1.193038) (xy -1.063682 -1.183385)
     (xy -1.090472 -1.187998) (xy -1.099966 -1.19926) (xy -1.102793 -1.230701) (xy -1.087578 -1.251207)
