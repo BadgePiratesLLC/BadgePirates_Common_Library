@@ -1,9 +1,0 @@
-(module CaptiveButtonSq (layer F.Cu) (tedit 61591C85)
-  (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.524 1.524) (thickness 0.3)))
-  )
-  (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
-    (effects (font (size 1.524 1.524) (thickness 0.3)))
-  )
-  (fp_poly (pts (xy -12.6746 -19.304) (xy -25.273 -19.304) (xy -25.4254 -30.48) (xy -12.6746 -30.48)) (layer F.Cu) (width 0.1))
-)
