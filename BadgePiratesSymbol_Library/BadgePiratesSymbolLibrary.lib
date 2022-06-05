@@ -1,4 +1,189 @@
-EESchema-LIBRARY Version 2.4
+EESchema-LIBRARY Version 2.3
 #encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74HC75D,653
+#/885426/876548/2.49/16/2/Integrated Circuit
+DEF 74HC75D,653 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "74HC75D,653" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-16N" 950 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74HC75.pdf" 950 0 50 H I L CNN
+F4 "74HC75 - Quad bistable transparent latch@en-us" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "771-74HC75D-T" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC75D653?qs=P62ublwmbi%2Fb%2FN5%2FYxys3w%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "74HC75D,653" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~1Q 1 0 0 200 R 50 50 0 0 P
+X 1D 2 0 -100 200 R 50 50 0 0 P
+X 2D 3 0 -200 200 R 50 50 0 0 P
+X LE34 4 0 -300 200 R 50 50 0 0 P
+X VCC 5 0 -400 200 R 50 50 0 0 P
+X 3D 6 0 -500 200 R 50 50 0 0 P
+X 4D 7 0 -600 200 R 50 50 0 0 P
+X ~4Q 8 0 -700 200 R 50 50 0 0 P
+X 1Q 16 1100 0 200 L 50 50 0 0 P
+X 2Q 15 1100 -100 200 L 50 50 0 0 P
+X ~2Q 14 1100 -200 200 L 50 50 0 0 P
+X LE12 13 1100 -300 200 L 50 50 0 0 P
+X GND 12 1100 -400 200 L 50 50 0 0 P
+X ~3Q 11 1100 -500 200 L 50 50 0 0 P
+X 3Q 10 1100 -600 200 L 50 50 0 0 P
+X 4Q 9 1100 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74HC4017D-Q100J
+#/808547/876548/2.49/16/2/Integrated Circuit
+DEF 74HC4017D-Q100J IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "74HC4017D-Q100J" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-16N" 950 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT4017_Q100.pdf" 950 0 50 H I L CNN
+F4 "74HC(T)4017-Q100 - Johnson decade counter with 10 decoded outputs@en-us" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "771-74HC4017D-Q100J" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC4017D-Q100J?qs=lH1ILECabYm5z5jjRSv02A%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "74HC4017D-Q100J" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X Q5 1 0 0 200 R 50 50 0 0 P
+X Q1 2 0 -100 200 R 50 50 0 0 P
+X Q0 3 0 -200 200 R 50 50 0 0 P
+X Q2 4 0 -300 200 R 50 50 0 0 P
+X Q6 5 0 -400 200 R 50 50 0 0 P
+X Q7 6 0 -500 200 R 50 50 0 0 P
+X Q3 7 0 -600 200 R 50 50 0 0 P
+X GND 8 0 -700 200 R 50 50 0 0 P
+X VCC 16 1100 0 200 L 50 50 0 0 P
+X MR 15 1100 -100 200 L 50 50 0 0 P
+X CP0 14 1100 -200 200 L 50 50 0 0 P
+X ~CP1 13 1100 -300 200 L 50 50 0 0 P
+X ~Q5-9 12 1100 -400 200 L 50 50 0 0 P
+X Q9 11 1100 -500 200 L 50 50 0 0 P
+X Q4 10 1100 -600 200 L 50 50 0 0 P
+X Q8 9 1100 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ACASA1002S1002P100
+#/776578/876548/2.49/8/2/Resistor Network
+DEF ACASA1002S1002P100 RN 0 30 Y Y 1 F N
+F0 "RN" 950 300 50 H V L CNN
+F1 "ACASA1002S1002P100" 950 200 50 H V L CNN
+F2 "ACASA1002S1002P100" 950 100 50 H I L CNN
+F3 "https://www.vishay.com/docs/28751/acasprec.pdf" 950 0 50 H I L CNN
+F4 "Precision Thin Film Chip Resistor Array" 950 -100 50 H I L CNN "Description"
+F5 "0.55" 950 -200 50 H I L CNN "Height"
+F6 "594-ACASA1002S1002P1" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/ACASA1002S1002P100?qs=abmNkq9no6DOI%252BR4lQ27Qw%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ACASA1002S1002P100" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X R1_1 1 0 0 200 R 50 50 0 0 P
+X R2_1 2 0 -100 200 R 50 50 0 0 P
+X R3_1 3 0 -200 200 R 50 50 0 0 P
+X R4_1 4 0 -300 200 R 50 50 0 0 P
+X R4_2 5 1100 -300 200 L 50 50 0 0 P
+X R3_2 6 1100 -200 200 L 50 50 0 0 P
+X R2_2 7 1100 -100 200 L 50 50 0 0 P
+X R1_2 8 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BAT-HLD-006-SMT
+#/14897058/876548/2.49/3/3/Undefined or Miscellaneous
+DEF BAT-HLD-006-SMT U 0 30 Y Y 1 F N
+F0 "U" 750 300 50 H V L CNN
+F1 "BAT-HLD-006-SMT" 750 200 50 H V L CNN
+F2 "BATHLD006SMT" 750 100 50 H I L CNN
+F3 "https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-006-smt-ds.pdf" 750 0 50 H I L CNN
+F4 "Coin Cell Battery Holders Holder for 2450 Batteries, Surface Mount, Bulk Packaging" 750 -100 50 H I L CNN "Description"
+F5 "5.7" 750 -200 50 H I L CNN "Height"
+F6 "712-BAT-HLD-006-SMT" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/BAT-HLD-006-SMT?qs=TuK3vfAjtkUyTQHMSqIP6A%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Linx Technologies" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BAT-HLD-006-SMT" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X +_1 1 0 0 200 R 50 50 0 0 P
+X - 2 0 -100 200 R 50 50 0 0 P
+X +_2 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#encoding utf-8
+#
+# Badgelife_sao_connector_v169bis
+#
+DEF Badgelife_sao_connector_v169bis X 0 40 Y Y 1 F N
+F0 "X" 0 0 50 H V C CNN
+F1 "Badgelife_sao_connector_v169bis" 0 800 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+S -300 350 300 -350 0 1 0 N
+X VCC 1 -200 550 200 D 50 50 1 1 I
+X GND 2 -200 -550 200 U 50 50 1 1 I
+X SDA 3 0 550 200 D 50 50 1 1 I
+X SCL 4 0 -550 200 U 50 50 1 1 I
+X GPIO1 5 200 550 200 D 50 50 1 1 I
+X GPIO2 6 200 -550 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# COM-11821
+#
+DEF COM-11821 D 0 40 Y Y 1 L N
+F0 "D" -400 430 50 H V L BNN
+F1 "COM-11821" -400 -400 50 H V L BNN
+F2 "LED_COM-11821" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Sparkfun" 0 0 50 H I L BNN "MANUFACTURER"
+F5 "Manufacturer recommendations" 0 0 50 H I L BNN "STANDARD"
+F6 "" 0 0 50 H I L BNN "PARTREV"
+F7 "" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+DRAW
+S -400 -300 400 400 0 0 6 f
+X DOUT 1 600 0 200 L 40 40 0 0 O 
+X DIN 2 -600 0 200 R 40 40 0 0 I 
+X VCC 3 600 300 200 L 40 40 0 0 W 
+X VDD 5 600 200 200 L 40 40 0 0 W 
+X VSS 6 600 -200 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
 #
 #End Library
