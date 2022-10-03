@@ -11,4 +11,4 @@ This repo contains our footprint library, logos, symbols and more
 
 ![KiCad Browse](https://downloads.intercomcdn.com/i/o/192996118/3b0da8ff5c2460155cb79fe5/image.png)
 
-Logos.pretty are also imported as footprints
+BadgePiratesLogos.pretty are also imported as footprints
