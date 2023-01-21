@@ -67,7 +67,7 @@
     (property "ki_keywords" "global power" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Power symbol creates a global label with name \"+3V0\"" (id 5) (at 0 0 0)
+    (property "ki_description" "Power symbol creates a global label with name \"+5V5\"" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "+5V5_0_1"
