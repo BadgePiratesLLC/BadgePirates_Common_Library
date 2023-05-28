@@ -3,7 +3,7 @@
   (descr "AA Battery Holder, SMD")
   (property "Sheetfile" "ProspectV2.kicad_sch")
   (property "Sheetname" "")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "BT1" (at 0.16 0) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2bc162ff-2cf4-4eb4-bd37-b18396797f3b)
