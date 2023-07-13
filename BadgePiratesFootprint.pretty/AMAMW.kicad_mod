@@ -1,15 +1,15 @@
 (footprint "AMAMW" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 67bd2104-04c1-4929-9fc5-851f21fd0cf4)
   )
-  (fp_text value "AMAMW" (at 0 1 unlocked) (layer "F.Fab")
+  (fp_text value "AMAMW" (at 0 1 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp be3e24c1-6825-4fcf-adb3-31341ab2dfdd)
   )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0ed86a0a-877a-4438-a441-24b593859a70)
   )
