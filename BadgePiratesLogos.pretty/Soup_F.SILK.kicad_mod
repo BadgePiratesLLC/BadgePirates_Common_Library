@@ -1,5 +1,6 @@
 (footprint "Soup_F.SILK" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (attr board_only exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 1.27 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7249cc68-2012-4fb0-ab79-c9d94ca85858)

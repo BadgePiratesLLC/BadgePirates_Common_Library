@@ -1,6 +1,6 @@
 (footprint "BPSkull_Distressed_B.CU" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr board_only exclude_from_pos_files exclude_from_bom)
   (fp_text reference "G***" (at 2.3114 -0.8128) (layer "B.SilkS") hide
       (effects (font (size 0.1 0.1) (thickness 0.025)) (justify mirror))
     (tstamp d7ee5663-f5e4-4e82-bb88-fcd536cfc09e)

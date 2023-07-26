@@ -1,5 +1,6 @@
 (footprint "n0rc_B.SLK" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (attr board_only exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 1 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1bc49b20-1c5a-4169-a4bc-feb0896bcdae)
