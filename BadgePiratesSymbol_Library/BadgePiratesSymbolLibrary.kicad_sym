@@ -1839,7 +1839,7 @@
     (property "Vendor 1" "LCSC" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Vendor PN 1" "TPS61023DRLR" (at 0 0 0)
+    (property "Vendor PN 1" "C919459" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Vendor 2" "DigiKey" (at 0 0 0)
