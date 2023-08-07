@@ -61,8 +61,6 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "B.Mask") (tstamp d346ae9b-cf4a-4f4a-86c9-648a9678ca42))
-  (fp_circle (center 0 0.000295) (end 1.092495 0.000295)
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.Mask") (tstamp 21b9ff76-974b-45bf-9c02-2c074f5c9090))
   (fp_line (start -3.55 -1.5) (end -3.55 1.5)
     (stroke (width 0.05) (type solid)) (layer "B.CrtYd") (tstamp 0d4317b7-6250-440b-a853-9d041ef043de))
   (fp_line (start -3.55 1.5) (end 3.55 1.5)
@@ -101,7 +99,7 @@
   (pad "" smd rect (at 2.286 0) (size 1.9304 2.4384) (layers "B.Paste" "B.Mask") (tstamp 82c7ab82-66ad-4b37-b6e7-b8fae7b8774a))
   (pad "1" smd rect (at 2.3 0) (size 2 2.5) (layers "B.Cu") (tstamp d67ec96a-3095-4211-ac77-fc4904168e71))
   (pad "2" smd rect (at -2.3 0) (size 2 2.5) (layers "B.Cu") (tstamp 14742d88-1c68-40fa-9e48-97158062eae5))
-  (zone (net 0) (net_name "") (layers "*.Cu" "F.SilkS") (tstamp e8de22c3-20d5-477a-8716-f7df03081454) (name "keep out") (hatch edge 0.127)
+  (zone (net 0) (net_name "") (layers "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu" "B.Cu" "F.SilkS") (tstamp e8de22c3-20d5-477a-8716-f7df03081454) (name "keep out") (hatch edge 0.127)
     (connect_pads (clearance 0))
     (min_thickness 0.25) (filled_areas_thickness no)
     (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
