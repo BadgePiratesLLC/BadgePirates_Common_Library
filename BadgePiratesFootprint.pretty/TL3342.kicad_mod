@@ -1,7 +1,7 @@
-(footprint "SW_SPST_TL3342 (NewButton)"
-	(version 20240108)
+(footprint "TL3342"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf")
 	(tags "SPST Tactile Switch")
@@ -16,26 +16,13 @@
 			)
 		)
 	)
-	(property "Value" "SW_SPST_TL3342 (NewButton)"
+	(property "Value" "TL3342"
 		(at 0 3.75 0)
 		(layer "F.Fab")
 		(uuid "098ec8e4-6659-4ce6-b4c3-ae561d210993")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f8987afa-1c28-41e4-9803-e0c891c9c32d")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -514,7 +501,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d09fe098-c854-4f1a-b216-9e4782c5f368")
 	)
@@ -532,27 +519,28 @@
 	(pad "1" smd rect
 		(at -3.15 -1.9)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2fdf9f96-3bc8-4370-a497-47cf413d8eb6")
 	)
 	(pad "1" smd rect
 		(at 3.15 -1.9)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ef152499-9140-4e95-9a81-89d58a4473ba")
 	)
 	(pad "2" smd rect
 		(at -3.15 1.9)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c0f8e203-3d85-4d5e-bbf8-0a1cf32bcf1b")
 	)
 	(pad "2" smd rect
 		(at 3.15 1.9)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0320eeb2-6a91-4d2d-9032-8bc9cc0cb72d")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3342.wrl"
 		(offset
 			(xyz 0 0 0)
