@@ -1,2 +1,19 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# --- KiCad: never EOL-convert. Nexus edd15f3d, 2026-08-22 ---
+# Windows git rewrites line endings on checkout, so KiCad files show as
+# "modified" with an EMPTY content diff the moment KiCad touches them. That
+# dirties the tree, and the GamingCrap auto-pull task refuses on a dirty tree
+# (by design, so it never risks uncommitted work) — so the repo silently stops
+# updating. Kevin: "I normally dont do anything when I open a project."
+*.kicad_pcb   -text
+*.kicad_sch   -text
+*.kicad_pro   -text
+*.kicad_prl   -text
+*.kicad_mod   -text
+*.kicad_sym   -text
+*.kicad_dru   -text
+*.kicad_wks   -text
+fp-lib-table  -text
+sym-lib-table -text

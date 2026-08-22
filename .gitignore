@@ -7,3 +7,13 @@
 *.bak
 *.bak
 BadgePiratesSymbol_Library/BadgePiratesSymbolLibrary.bak
+
+# --- KiCad local state — regenerated on every open. Nexus edd15f3d, 2026-08-22 ---
+# NOTE: "*-backup/" does NOT match KiCad's "*-backups/" (plural). That
+# one-character near-miss is why backup zips kept showing as untracked.
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.lck
+~*.lck
+_autosave-*
