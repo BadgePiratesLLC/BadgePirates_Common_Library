@@ -198,7 +198,7 @@
 	)
 	(pad "1" smd roundrect
 		(at -4.47 5.2)
-		(size 1.6 0.6)
+		(size 0.6 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(pinfunction "RF_SW")
@@ -207,7 +207,7 @@
 	)
 	(pad "2" smd roundrect
 		(at -3.2 5.2)
-		(size 1.6 0.6)
+		(size 0.6 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(pinfunction "MISO")
@@ -216,7 +216,7 @@
 	)
 	(pad "3" smd roundrect
 		(at -1.93 5.2)
-		(size 1.6 0.6)
+		(size 0.6 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(pinfunction "MOSI")
@@ -225,7 +225,7 @@
 	)
 	(pad "4" smd roundrect
 		(at -0.66 5.2)
-		(size 1.6 0.6)
+		(size 0.6 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(pinfunction "SCK")
@@ -234,7 +234,7 @@
 	)
 	(pad "5" smd roundrect
 		(at 0.61 5.2)
-		(size 1.6 0.6)
+		(size 0.6 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(pinfunction "NRST")
@@ -243,7 +243,7 @@
 	)
 	(pad "6" smd roundrect
 		(at 1.88 5.2)
-		(size 1.6 0.6)
+		(size 0.6 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(pinfunction "NSS")
@@ -252,7 +252,7 @@
 	)
 	(pad "7" smd roundrect
 		(at 3.15 5.2)
-		(size 1.6 0.6)
+		(size 0.6 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(pinfunction "GND1")
@@ -261,7 +261,7 @@
 	)
 	(pad "8" smd roundrect
 		(at 4.42 5.2)
-		(size 1.6 0.6)
+		(size 0.6 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(pinfunction "VCC")
@@ -270,7 +270,7 @@
 	)
 	(pad "9" smd roundrect
 		(at 0.61 -5.2)
-		(size 1.6 0.6)
+		(size 0.6 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(pinfunction "ANT")
@@ -279,7 +279,7 @@
 	)
 	(pad "10" smd roundrect
 		(at -0.66 -5.2)
-		(size 1.6 0.6)
+		(size 0.6 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(pinfunction "GND2")
@@ -288,7 +288,7 @@
 	)
 	(pad "11" smd roundrect
 		(at -1.93 -5.2)
-		(size 1.6 0.6)
+		(size 0.6 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(pinfunction "BUSY")
@@ -297,7 +297,7 @@
 	)
 	(pad "12" smd roundrect
 		(at -3.2 -5.2)
-		(size 1.6 0.6)
+		(size 0.6 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(pinfunction "DIO1")
