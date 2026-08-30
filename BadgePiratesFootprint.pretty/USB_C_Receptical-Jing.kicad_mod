@@ -85,6 +85,17 @@
 			)
 		)
 	)
+	(fp_circle
+		(center -4.725 7.15)
+		(end -4.575 7.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "21ecbeb3-1b76-4466-b643-fb374801049c")
+	)
 	(pad "" np_thru_hole circle
 		(at -2.89 0.5)
 		(size 0.65 0.65)
