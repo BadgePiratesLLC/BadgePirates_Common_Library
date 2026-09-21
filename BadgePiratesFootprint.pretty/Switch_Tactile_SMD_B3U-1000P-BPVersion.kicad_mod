@@ -257,7 +257,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c027fa6b-8e6d-4e11-8804-979831dae8d5")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS.step"
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS.step"
 		(offset
 			(xyz 0 0 0)
 		)

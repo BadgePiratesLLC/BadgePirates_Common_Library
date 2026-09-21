@@ -300,7 +300,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b776ca6e-2890-4e0f-9d6c-5a5a023d01b6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.step"
 		(offset
 			(xyz 0 0 0)
 		)

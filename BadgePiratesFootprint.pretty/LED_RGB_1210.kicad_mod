@@ -81,7 +81,7 @@
       )
     )
   )
-  (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_1210.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_1210.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

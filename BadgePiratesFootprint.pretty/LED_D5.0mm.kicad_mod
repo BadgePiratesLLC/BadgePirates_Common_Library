@@ -45,7 +45,7 @@
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp eb1b2ebe-65dc-4fe4-8b70-cba3b5ef3c63))
   (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 0d2b6cff-d217-4b5a-96a1-5bc27985a338))
   (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 6357d5bd-0833-4bba-9b81-29bb08093df9))
-  (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

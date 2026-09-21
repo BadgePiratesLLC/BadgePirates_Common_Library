@@ -350,7 +350,7 @@
 		(roundrect_rratio 0.2083333333)
 		(uuid "4126e002-46b0-48cf-a309-3309053ab7a4")
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -265,7 +265,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "19e2924b-7abf-4e57-8da5-2b3c2174bb86")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 		(offset
 			(xyz 0 0 0)
 		)

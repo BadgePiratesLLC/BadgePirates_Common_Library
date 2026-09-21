@@ -238,7 +238,7 @@
 		(remove_unused_layers no)
 		(uuid "2f6e6fe6-ab74-4562-bb4a-f82faddc4443")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 		(offset
 			(xyz 0 -3 0)
 		)

@@ -55,7 +55,7 @@
   (pad "2" smd oval (at 0 2.54) (size 1.7 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4a2f4dd2-de0e-42e3-9f65-de0743ee6db8))
   (pad "3" smd oval (at 0 5.08) (size 1.7 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 869073e7-6a09-4f6d-879c-6fb7a89c1f1c))
   (pad "4" smd oval (at 0 7.62) (size 1.7 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 42a93cbc-439a-4e24-be64-fba67991c627))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

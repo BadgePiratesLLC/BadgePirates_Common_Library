@@ -105,7 +105,7 @@
   (pad "4" smd rect (at -9.65 3.5) (size 2.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 48d0977e-3b97-407f-a283-e4b3b06b2fd7))
   (pad "5" thru_hole oval (at -6.9 -5.7) (size 3.5 1.9) (drill oval 2.5 0.9) (layers "*.Cu" "*.Mask") (tstamp ed5df861-1e3e-46ea-9594-9254a49ff690))
   (pad "5" thru_hole oval (at -6.9 5.7) (size 3.5 1.9) (drill oval 2.5 0.9) (layers "*.Cu" "*.Mask") (tstamp 0d802d86-aa63-40a5-9c10-7eef7480067a))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_CNCTech_1001-011-01101_Horizontal.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_CNCTech_1001-011-01101_Horizontal.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
