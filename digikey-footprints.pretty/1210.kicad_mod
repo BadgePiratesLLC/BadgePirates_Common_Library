@@ -22,7 +22,7 @@
   (fp_line (start -1.6 -1.25) (end 1.6 -1.25) (layer F.Fab) (width 0.1))
   (pad 1 smd rect (at -1.145 0) (size 1.52 3.05) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.145 0) (size 1.52 3.05) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1210_3225Metric.step
+  (model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1210_3225Metric.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

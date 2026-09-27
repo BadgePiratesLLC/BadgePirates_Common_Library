@@ -86,7 +86,7 @@
   (pad "" thru_hole circle (at 0 59.13 270) (size 3.2 3.2) (drill 2.7) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 49.7 -10.87 270) (size 3.2 3.2) (drill 2.7) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 49.7 59.13 270) (size 3.2 3.2) (drill 2.7) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Display.3dshapes/AG12864E.wrl
+  (model "${KICAD10_3DMODEL_DIR}/Display.3dshapes/AG12864E.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

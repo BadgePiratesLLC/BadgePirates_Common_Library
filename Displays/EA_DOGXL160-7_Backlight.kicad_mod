@@ -53,7 +53,7 @@
   (pad 30 thru_hole circle (at 60.96 5.08) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 31 thru_hole circle (at 60.96 2.54) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 32 thru_hole circle (at 60.96 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Display.3dshapes/EA_DOGXL160-7_Backlight.wrl
+  (model "${KICAD10_3DMODEL_DIR}/Display.3dshapes/EA_DOGXL160-7_Backlight.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

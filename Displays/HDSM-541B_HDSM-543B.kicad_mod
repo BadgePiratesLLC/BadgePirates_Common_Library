@@ -37,7 +37,7 @@
   (pad 8 smd rect (at 9.5 0) (size 3 2) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 9.5 -2.54) (size 3 2) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd rect (at 9.5 -5.08) (size 3 2) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Display.3dshapes/HDSM-541B_HDSM-543B.wrl
+  (model "${KICAD10_3DMODEL_DIR}/Display.3dshapes/HDSM-541B_HDSM-543B.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

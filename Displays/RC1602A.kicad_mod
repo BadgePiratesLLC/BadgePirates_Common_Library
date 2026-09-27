@@ -84,7 +84,7 @@
   (pad K1 thru_hole rect (at -36.74 19.06 180) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad K1 thru_hole rect (at -39.28 19.06 180) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad K1 thru_hole rect (at -39.28 16.52 180) (size 2 2) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Display.3dshapes/RC1602A.wrl
+  (model "${KICAD10_3DMODEL_DIR}/Display.3dshapes/RC1602A.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

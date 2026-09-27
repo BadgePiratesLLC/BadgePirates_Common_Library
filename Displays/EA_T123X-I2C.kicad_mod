@@ -49,7 +49,7 @@
   (pad 4 thru_hole circle (at 0 7.62) (size 1.5 1.5) (drill 0.75) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 0 10.16) (size 1.5 1.5) (drill 0.75) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 0 12.7) (size 1.5 1.5) (drill 0.75) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Display.3dshapes/EA_T123X-I2C.wrl
+  (model "${KICAD10_3DMODEL_DIR}/Display.3dshapes/EA_T123X-I2C.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
