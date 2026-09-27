@@ -582,7 +582,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "af66518f-af54-48c0-b506-27977596c4f8")
 	)
-	(model "C:/Users/KevinBennett/OneDrive - Tier 3 Tech/Badges/BadgePirates_Common_Library/digikey-footprints.pretty/ESP32-S3-WROOM-1-N16.STEP"
+	(model "${BADGEPIRATES_COMMON_LIB}/digikey-footprints.pretty/ESP32-S3-WROOM-1-N16.STEP"
 		(opacity 0.7500)
 		(offset
 			(xyz 0 3.15 0)

@@ -335,7 +335,7 @@
 		(layers "F.Cu")
 		(uuid "2a3da456-e446-4b13-b384-2eef8d2e3001")
 	)
-	(model "C:/Users/KevinBennett/OneDrive - Tier 3 Tech/Badges/BadgePirates_Common_Library/BadgePiratesFootprint.pretty/ReverseMount.step"
+	(model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/ReverseMount.step"
 		(offset
 			(xyz 0 0 0)
 		)
