@@ -54,4 +54,9 @@
   (pad "8" smd rect (at -1.905 -2.75) (size 0.65 1.75) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.07) (tstamp 38ecbc1b-e576-45f7-be00-e85554d59acb))
   (pad "9" smd rect (at 0 0) (size 3.3 2.41) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9e5d73d5-b3bc-4111-be39-11bc05fbcfd3))
+  (model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
