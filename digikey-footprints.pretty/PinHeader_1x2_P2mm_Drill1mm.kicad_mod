@@ -27,4 +27,9 @@
   (fp_line (start -1.95 2.25) (end 3.95 2.25) (layer F.Fab) (width 0.1))
   (pad 1 thru_hole circle (at 0 0) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2 0) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
+  (model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x02_P2.00mm_Vertical.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
