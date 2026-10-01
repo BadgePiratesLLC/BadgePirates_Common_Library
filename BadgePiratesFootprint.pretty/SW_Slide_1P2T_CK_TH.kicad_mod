@@ -38,7 +38,7 @@
   (pad "1" thru_hole circle (at 0.2032 0.0508) (size 0.65 0.65) (drill 0.5) (layers *.Cu *.Mask) (tstamp 12363452-9e38-40e5-a994-a56575443507))
   (pad "2" thru_hole circle (at 1.0668 0.0508) (size 0.65 0.65) (drill 0.5) (layers *.Cu *.Mask) (tstamp 8f19b3d5-5e58-47db-8cb9-3ef671d6dfb6))
   (pad "3" thru_hole circle (at 1.9304 0.0508) (size 0.65 0.65) (drill 0.5) (layers *.Cu *.Mask) (tstamp af7fa9fd-ff8d-4291-a6fe-86bead20ecaa))
-  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide_1P2T_CK_OS102011MS2Q.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide_SPDT_Straight_CK_OS102011MS2Q.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

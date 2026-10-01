@@ -29,7 +29,7 @@
   (pad "" np_thru_hole circle (at 27.6 -8) (size 3.45 3.45) (drill 3.45) (layers *.Cu *.Mask) (tstamp ace608ef-8a9a-401e-927a-58e6f1694339))
   (pad "1" smd rect (at -39.67 0) (size 7.46 6.47) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bfc432e8-3fa0-4f5f-b80d-3f907d0688c7))
   (pad "2" smd rect (at 39.67 0) (size 7.46 6.47) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 67859feb-bc87-40ef-a923-3da86d116486))
-  (model "eec.models/Keystone_-_1042.step"
+  (model "${KICAD6_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
