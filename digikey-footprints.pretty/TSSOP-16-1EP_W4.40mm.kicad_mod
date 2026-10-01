@@ -70,4 +70,9 @@
   (pad 17 thru_hole circle (at -1.5 0.75) (size 0.38 0.38) (drill 0.33) (layers *.Cu *.Mask))
   (pad 17 thru_hole circle (at 0 0.75) (size 0.38 0.38) (drill 0.33) (layers *.Cu *.Mask))
   (pad 17 thru_hole circle (at 1.5 0.75) (size 0.38 0.38) (drill 0.33) (layers *.Cu *.Mask))
+  (model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16-1EP_4.4x5mm_P0.65mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

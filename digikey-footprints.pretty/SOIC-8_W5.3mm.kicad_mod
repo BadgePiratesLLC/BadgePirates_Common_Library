@@ -35,4 +35,9 @@
   (pad 6 smd rect (at 2.465 0.635) (size 1.6 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 2.465 -0.635) (size 1.6 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 2.465 -1.905) (size 1.6 0.7) (layers F.Cu F.Paste F.Mask))
+  (model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.3x6.2mm_P1.27mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
