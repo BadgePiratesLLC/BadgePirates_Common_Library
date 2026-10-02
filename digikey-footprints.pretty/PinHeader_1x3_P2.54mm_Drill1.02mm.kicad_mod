@@ -28,4 +28,9 @@
   (pad 1 thru_hole circle (at 0 0) (size 2.02 2.02) (drill 1.02) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.54 0) (size 2.02 2.02) (drill 1.02) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 5.08 0) (size 2.02 2.02) (drill 1.02) (layers *.Cu *.Mask))
+  (model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
