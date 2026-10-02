@@ -172,4 +172,9 @@
     (solder_mask_margin 0.0001))
   (pad 49 thru_hole circle (at -2.14 2.3 270) (size 0.3 0.3) (drill 0.3) (layers *.Cu *.Mask)
     (solder_mask_margin 0.0001))
+  (model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
