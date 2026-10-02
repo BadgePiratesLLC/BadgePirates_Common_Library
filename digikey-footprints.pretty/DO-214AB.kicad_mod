@@ -37,4 +37,9 @@
   (fp_line (start -3.2 3.1) (end -3.2 1.8) (layer F.SilkS) (width 0.1))
   (pad A smd rect (at 3.45 0.01) (size 2.5 3.3) (layers F.Cu F.Paste F.Mask))
   (pad K smd rect (at -3.45 0) (size 2.5 3.3) (layers F.Cu F.Paste F.Mask))
+  (model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMC.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
