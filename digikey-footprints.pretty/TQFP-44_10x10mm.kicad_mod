@@ -72,4 +72,9 @@
   (pad 42 smd rect (at -2.4 -5.7) (size 0.6 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 43 smd rect (at -3.2 -5.7) (size 0.6 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 44 smd rect (at -4 -5.7) (size 0.6 1.5) (layers F.Cu F.Paste F.Mask))
+  (model "${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/TQFP-44_10x10mm_P0.8mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
