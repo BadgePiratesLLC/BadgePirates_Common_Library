@@ -37,4 +37,9 @@
   (pad 9 thru_hole circle (at 5.1 5.08) (size 1.97 1.97) (drill 1.22) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at 6.8 0) (size 1.97 1.97) (drill 1.22) (layers *.Cu *.Mask))
   (pad 11 thru_hole circle (at 8.5 5.08) (size 1.97 1.97) (drill 1.22) (layers *.Cu *.Mask))
+  (model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-11_P3.4x5.08mm_StaggerOdd_Lead4.58mm_Vertical.step"
+    (offset (xyz -8.5 5.08 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
