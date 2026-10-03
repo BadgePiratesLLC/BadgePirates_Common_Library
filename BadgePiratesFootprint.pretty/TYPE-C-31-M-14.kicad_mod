@@ -76,4 +76,9 @@
   (pad "S1" thru_hole roundrect (at -5.58 1.03) (size 1 2.2) (drill oval 0.5 1.65) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp ac263636-46f3-4e09-8331-69689909fc29))
   (pad "S1" thru_hole roundrect (at -5.58 -3.64) (size 1 2.2) (drill oval 0.5 1.65) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp b7a77bcc-f968-407f-9126-5ba6d07f95fa))
   (pad "S1" thru_hole roundrect (at 5.58 1.04) (size 1 2.2) (drill oval 0.5 1.65) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp c9e0e3a4-0bf9-43d1-8bfe-0e720ecc6cdd))
+  (model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/TYPE-C-31-M-14.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
