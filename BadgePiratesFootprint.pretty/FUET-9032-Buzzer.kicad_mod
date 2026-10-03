@@ -23,4 +23,9 @@
     (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp a65a9ab6-0b5f-4916-ac68-7ba27713fcfa))
   (pad "1" smd rect (at 0 0) (size 3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 88a9d994-fba6-459c-9d2b-085431b62acd))
   (pad "2" smd rect (at 8 0) (size 3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d9dad9e5-accf-4fe7-8e72-c9cbc7959119))
+  (model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/FUET-9032-Buzzer.step"
+    (offset (xyz 4 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
