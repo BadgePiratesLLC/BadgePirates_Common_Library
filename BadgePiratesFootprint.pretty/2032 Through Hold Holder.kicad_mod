@@ -25,4 +25,15 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp bd8eadf2-7b85-4cec-9d43-d4aa674a7dcd))
   (pad "1" thru_hole circle (at 0.0508 20.3454) (size 1.7524 1.7524) (drill 1.25) (layers "*.Cu" "*.Mask") (tstamp e4862f53-5bd8-49f6-9488-32dea13ec45f))
   (pad "2" thru_hole circle (at 0 0.381) (size 1.7524 1.7524) (drill 1.25) (layers "*.Cu" "*.Mask") (tstamp f1a3fdaa-10d4-4575-a613-3f4a3bf309d4))
+  (model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/BAT-TH_BS-02-A1AJ010.step"
+    (offset
+      (xyz 0.0254 10.3632 0)
+    )
+    (scale
+      (xyz 1 1 1)
+    )
+    (rotate
+      (xyz 0 0 90)
+    )
+  )
 )
