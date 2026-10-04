@@ -28,4 +28,9 @@
   (pad "B" smd rect (at 4 7.7) (size 1.3 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 80857dda-c70f-411c-8973-23be269854a3))
   (pad "C" smd rect (at 1.475 7.7) (size 1.3 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 64367271-a467-4df8-9b21-aa3eac6abb15))
   (pad "S" smd rect (at -1.475 7.7) (size 1.3 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2d6ceb45-15c3-4126-a07a-8cb82897f54d))
+  (model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/SIQ-02FVS3_Encoder.step"
+    (offset (xyz 0 2.65 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
