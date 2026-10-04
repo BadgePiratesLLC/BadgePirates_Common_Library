@@ -43,4 +43,9 @@
   (pad "1" smd rect (at -15.3 0 90) (size 6 6.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 27c0671d-6368-47f5-bad2-fab25938cb7f))
   (pad "1" smd rect (at 15.494 0.1016 90) (size 6 6.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp edab6f94-a912-47ac-bf1c-788b78afcff9))
   (pad "2" smd circle (at 0 0 90) (size 23 23) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3433da01-f741-4a0b-a3c9-ae0d08ade893))
+  (model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/BATHLD006SMT - CR2450.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
