@@ -150,4 +150,9 @@
 		(thermal_bridge_angle 0)
 		(uuid "6feb3c01-2418-454d-acca-19ce8ce05610")
 	)
+	(model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/RESDFN650X400X90-2N.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )
