@@ -24,4 +24,9 @@
   (pad "S1" thru_hole oval (at 4.32 -3.7) (size 0.95 1.45) (drill oval 0.45 0.95) (layers *.Cu *.Mask) (tstamp d50d1631-6bde-4ae1-8bd9-19c12f766557))
   (pad "S1" thru_hole oval (at 4.35 0) (size 0.95 1.85) (drill oval 0.45 1.35) (layers *.Cu *.Mask) (tstamp ef0b7c08-b342-49cc-a237-bbe3e68bbac7))
   (pad "S1" thru_hole oval (at -4.35 0) (size 0.95 1.85) (drill oval 0.45 1.35) (layers *.Cu *.Mask) (tstamp fabafb79-672e-4624-9967-286a0ed42d02))
+  (model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/GT-USB-7002C.step"
+    (offset (xyz 0 -2.4 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
