@@ -39,4 +39,9 @@
   (pad "4" thru_hole circle (at  2.5  2.0) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
   (pad "5" thru_hole circle (at  2.5  0.0) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
   (pad "6" thru_hole circle (at  2.5 -2.0) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/SW_THT_XKB7070Z92_PushPush_Latching.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
