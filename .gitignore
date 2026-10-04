@@ -17,3 +17,10 @@ fp-info-cache
 *.lck
 ~*.lck
 _autosave-*
+
+# Scratch kicad-cli DRC output from manual investigation (kicad-cli pcb drc
+# run by hand at a shell). The generator's own report is
+# _deliverables/drc-report.txt, which is tracked and unaffected by this rule.
+# An untracked *-drc.rpt left in a board dir trips hw_deliverables_gen.mjs's
+# dirty check and stalls that board at 'warn' (Nexus 975de7f7, f81f825c).
+*-drc.rpt
