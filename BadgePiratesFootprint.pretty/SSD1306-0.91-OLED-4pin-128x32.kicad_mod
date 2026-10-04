@@ -34,4 +34,9 @@
   (pad 2 thru_hole oval (at 36.5 4.73) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at 36.5 7.27) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 4 thru_hole oval (at 36.5 9.81) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/SSD1306-0.91-OLED-4pin-128x32.step"
+    (offset (xyz 36.5 -6 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
