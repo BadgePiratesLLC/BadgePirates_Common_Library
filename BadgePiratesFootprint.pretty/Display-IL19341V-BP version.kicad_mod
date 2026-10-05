@@ -106,6 +106,26 @@
 		(uuid "5c7cbf56-487e-43ae-8058-dbcbbc5f2b87")
 	)
 	(fp_rect
+		(start -44.890035 -28.460002)
+		(end 45.109965 27.539998)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+	)
+	(fp_rect
+		(start -45.390035 -28.960002)
+		(end 45.609965 28.039998)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+	)
+	(fp_rect
 		(start -44.720035 -19.240002)
 		(end -37.310035 16.499998)
 		(stroke
@@ -436,6 +456,30 @@
 		(remove_unused_layers no)
 		(uuid "33b621b4-f1fe-4029-8deb-d5359f7dc27e")
 	)
+	(pad "" np_thru_hole circle
+		(at -42.390035 -25.960002)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 42.609965 -25.960002)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at -42.390035 25.039998)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 42.609965 25.039998)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+	)
 	(group ""
 		(uuid "6d7c9d7c-563e-428c-8215-c73d2c675c6d")
 		(members "76a5a170-071d-4fef-9c53-3133c34ce337" "9c1290fb-0807-498d-9ca5-d0f66f256ee6")
@@ -455,4 +499,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/Display_ILI9341_2p8in_CapTouch.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
