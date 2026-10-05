@@ -30,7 +30,7 @@
   (pad 6 smd rect (at 2.712 0.635 90) (size 0.65 1.525) (layers F.Cu F.Paste))
   (pad 7 smd rect (at 2.712 -0.635 90) (size 0.65 1.525) (layers F.Cu F.Paste))
   (pad 8 smd rect (at 2.712 -1.905 90) (size 0.65 1.525) (layers F.Cu F.Paste))
-  (model "C:\\Users\\CrapDesktop\\OneDrive - Tier 3 Tech\\Badges\\BadgePirates_Common_Library\\SamacSys_Parts.3dshapes\\NE555DR.stp"
+  (model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
     (at(xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate(xyz 0 0 0))
