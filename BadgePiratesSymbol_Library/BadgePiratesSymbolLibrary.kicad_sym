@@ -260,11 +260,11 @@
       )
     )
   )
-  (symbol "74HC75D,653" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+  (symbol "74HC75D653" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 24.13 7.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74HC75D,653" (at 24.13 5.08 0)
+    (property "Value" "74HC75D653" (at 24.13 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "BadgePirates:SOIC127P600X175-16N" (at 24.13 2.54 0)
@@ -285,7 +285,7 @@
     (property "Height" "1.75" (at 24.13 -5.08 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (symbol "74HC75D,653_0_0"
+    (symbol "74HC75D653_0_0"
       (pin passive line (at 0 0 0) (length 5.08)
         (name "~{1Q}" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -351,7 +351,7 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "74HC75D,653_0_1"
+    (symbol "74HC75D653_0_1"
       (polyline
         (pts
           (xy 5.08 2.54)
