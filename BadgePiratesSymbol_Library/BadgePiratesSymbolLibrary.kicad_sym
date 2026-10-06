@@ -842,7 +842,7 @@
       )
     )
   )
-  (symbol "C_.1uf_0805" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+  (symbol "C_0.1uF_0805" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
     (property "Reference" "C" (at 2.3368 1.1684 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -876,7 +876,7 @@
     (property "ki_fp_filters" "C_*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "C_.1uf_0805_0_1"
+    (symbol "C_0.1uF_0805_0_1"
       (polyline
         (pts
           (xy -1.524 -0.508)
@@ -894,7 +894,7 @@
         (fill (type none))
       )
     )
-    (symbol "C_.1uf_0805_1_1"
+    (symbol "C_0.1uF_0805_1_1"
       (pin passive line (at 0 2.54 270) (length 2.032)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
