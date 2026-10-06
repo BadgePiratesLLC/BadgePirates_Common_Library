@@ -116,16 +116,6 @@
 		(layer "B.Fab")
 	)
 	(fp_rect
-		(start -45.390035 -28.960002)
-		(end 45.609965 28.039998)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "B.CrtYd")
-	)
-	(fp_rect
 		(start -44.720035 -19.240002)
 		(end -37.310035 16.499998)
 		(stroke
@@ -456,29 +446,45 @@
 		(remove_unused_layers no)
 		(uuid "33b621b4-f1fe-4029-8deb-d5359f7dc27e")
 	)
-	(pad "" np_thru_hole circle
-		(at -42.390035 -25.960002)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask")
+	(fp_circle
+		(center -42.390035 -25.960002)
+		(end -42.390035 -24.860002)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
 	)
-	(pad "" np_thru_hole circle
-		(at 42.609965 -25.960002)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask")
+	(fp_circle
+		(center 42.609965 -25.960002)
+		(end 42.609965 -24.860002)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
 	)
-	(pad "" np_thru_hole circle
-		(at -42.390035 25.039998)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask")
+	(fp_circle
+		(center -42.390035 25.039998)
+		(end -42.390035 26.139998)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
 	)
-	(pad "" np_thru_hole circle
-		(at 42.609965 25.039998)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Cu" "*.Mask")
+	(fp_circle
+		(center 42.609965 25.039998)
+		(end 42.609965 26.139998)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
 	)
 	(group ""
 		(uuid "6d7c9d7c-563e-428c-8215-c73d2c675c6d")
