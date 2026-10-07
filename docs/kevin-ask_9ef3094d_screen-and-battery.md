@@ -1,8 +1,17 @@
 # Nexus 9ef3094d — Kevin action needed (d0144 corrections)
 
-Two physical/access actions only Kevin can do, blocking the CC15 3D-fix ticket.
+**UPDATE 2026-10-07:** Item 1 (battery holder STEP) below is RESOLVED — do
+not action it. The real Keystone-53 STEP was pulled via
+`easyeda2kicad --lcsc_id=C5352788` (no DigiKey login needed after all),
+landed in the library at commit `66e0904`, and re-pointed into both CC15 and
+BlueTeamTool's BT1/BT2 footprint instances (cc15 `1cd67a7`, BTT `c018901`).
+3d-model-check passes on both boards. The original ask text is kept below
+only for history.
 
-## 1. Battery holder — Keystone 53 real STEP
+Only **item 2 (screen module calipers)** is still outstanding and still
+needs Kevin/Jared's hands on the physical part.
+
+## 1. Battery holder — Keystone 53 real STEP — ~~RESOLVED, see update above~~
 
 Research so far (DigiKey + Keystone parametric data, via search — keyelco.com
 and digikey.com both return HTTP 403 to automated fetch from this box, so the
@@ -18,23 +27,11 @@ exact manufacturer drawing could not be pulled directly):
   uses a 14500 cell, which is AA-length (50mm) — so the **AA pitch, 52.10mm,
   is the correct spacing**, one Keystone 53 per cell.
 - Height above board: 0.569in (14.45mm), matches Kevin's d0144 note.
-- **Not yet confirmed:** exact clip width/depth/shape and true mated height —
-  that needs the real Keystone drawing, which this box cannot fetch.
+- ~~Not yet confirmed: exact clip width/depth/shape and true mated height~~ —
+  superseded, the real STEP (easyeda2kicad, C5352788) has the actual geometry.
 
-**The existing `Battery_14500_Keystone53_clips.step` in the library (commit
-84184b4) is a procedurally-built approximation (Open CASCADE synthetic solid,
-not a manufacturer export) — it should NOT be treated as the real part.**
-
-**Ask: download the real Keystone STEP for part 53 (DigiKey PN 2745544,
-https://www.digikey.com/en/products/detail/keystone-electronics/53/2745544)
-from a logged-in browser and drop it somewhere Bucky can pick it up** — DigiKey
-hosts manufacturer CAD downloads (STEP/IGES) on the product page under
-"CAD Models", which needs a logged-in session this box doesn't have.
-
-Also needs a decision: the current `Battery - 14500.kicad_mod` footprint has
-4 pads in a symmetric dual-cell layout that doesn't match the real 52.10mm
-single-part pitch above — it should be redrawn once the real STEP/drawing is
-in hand, rather than patched blind.
+~~Ask: download the real Keystone STEP...~~ — not needed, resolved via
+easyeda2kicad instead. See update at top of file.
 
 ## 2. Screen module — physical calipers measurement
 
