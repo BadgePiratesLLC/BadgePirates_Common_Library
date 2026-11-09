@@ -507,13 +507,13 @@
 	(embedded_fonts no)
 	(model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/Display_ILI9341_2p8in_CapTouch.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -88 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 180 0)
+			(xyz 0 0 0)
 		)
 	)
 )
