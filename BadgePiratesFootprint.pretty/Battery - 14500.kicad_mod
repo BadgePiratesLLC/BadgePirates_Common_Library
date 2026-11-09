@@ -49,13 +49,13 @@
   (pad "2" smd rect (at 15.175 0.035) (size 4.5 5.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 45becfd7-940b-4edb-9018-6daad2c63247))
   (pad "2" smd rect (at 28.3 0.01) (size 5.5 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp eb960941-786d-4264-bb60-2513460c4026))
   (model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/Keystone-53_real.step"
-    (offset (xyz -21.7125 0.01 -1.8))
+    (offset (xyz -21.7125 0.01 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 90 0 180))
+    (rotate (xyz 0 0 180))
   )
   (model "${BADGEPIRATES_COMMON_LIB}/BadgePiratesFootprint.pretty/Keystone-53_real.step"
-    (offset (xyz 21.7375 0.035 -1.8))
+    (offset (xyz 21.7375 0.035 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 90 0 0))
+    (rotate (xyz 0 0 0))
   )
 )
